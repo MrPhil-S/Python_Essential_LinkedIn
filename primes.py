@@ -10,6 +10,16 @@ def isprime(n):
     else:
         return True
 
+def list_primes():
+    for n in range(1000):
+        if isprime(n):
+            print(n, end=' ', flush=True)
+    print()
+
+list_primes()
+
+    
+
 n = 5
 if isprime(n):
     print(f'{n} is prime')
