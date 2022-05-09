@@ -30,7 +30,7 @@ def main():
 class Tree:
    height=5
    def Height(self):
-       print('heights is {}'.format(self.height))
+       print('height is {}'.format(self.height))
 Elm=Tree()
 Elm.Height()
 

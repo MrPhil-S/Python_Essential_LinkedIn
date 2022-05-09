@@ -62,10 +62,11 @@ print(f'divided numbers with // become int: {x} :' +str(type(x)) )
 x = .1+.1+.1-.3
 print(x)
 print(type(x))
-#solve with:
+#solve with decimal library:
 from decimal import Decimal
 a = Decimal('.10')
 b = Decimal('.30')
 x = a + a + a - b
 print(f'Using decimal import : {x}')
 print(type(x))
+
