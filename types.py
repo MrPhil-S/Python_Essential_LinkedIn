@@ -52,6 +52,7 @@ x = f'using f strings: {a:5} - {b:05}'
 print(x)
 
 #python 3 changed divion to floats
+#// - integer division
 x = 7/3
 print(f'divided numbers with / become float: {x} :' +str(type(x)) )
 x = 7//3
